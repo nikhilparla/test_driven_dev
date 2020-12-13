@@ -1,7 +1,7 @@
 #include <map>
 #include <cstdint>
 
-#include "catch.hpp"
+// #include "catch.hpp"
 
 struct Portal{
     enum class Type {Snake, Ladder};
@@ -36,4 +36,4 @@ std::map<uint32_t, Portal> portals =
     { 93, { Portal::Type::Snake, 73 } },
     { 95, { Portal::Type::Snake, 75 } },
     { 98, { Portal::Type::Snake, 78 } },
-}
+};
